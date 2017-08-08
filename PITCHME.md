@@ -1,6 +1,11 @@
 # Let's talk about React!
 
 ---
+## Oh no, not another frontend thing!
+
+![angst](/img/frontend-angst.jpg)
+
+---
 # Why you should not use React
 
 ✨ It's New! ✨
