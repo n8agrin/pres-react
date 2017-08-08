@@ -200,9 +200,7 @@ angular
 ```
 
 ---
-## Some Projects at Looker Already Use React!
-
-##### Workbooks
+## Hackday React!
 
 ![workbook](/img/workbook.jpg)
 
