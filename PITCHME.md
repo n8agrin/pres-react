@@ -1,6 +1,14 @@
 # Let's talk about React!
 
 ---
+## What is React?
+
+1. It's a library (not a "framework")
+2. Declarative 
+3. Component based
+4. Profit 💰🤑💰🤑💰🤑
+
+---
 ## Oh no, not another frontend thing!
 
 ![angst](/img/frontend-angst.jpg)
@@ -13,10 +21,10 @@
 ---?image=/img/krouse.jpg&size=cover
 ## Did Steve Tell You That?!
 
-Yep, back in about 2014, he did, and he was right!
+Yep, back in about 2014, he did, and turned out he was right!
 
 ---
-# WAT MAN
+## React, what is it?
 
 ---
 # Why you should not use React
