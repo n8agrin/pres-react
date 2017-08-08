@@ -3,9 +3,9 @@
 ---
 ## What is React?
 
-1. It's a library (not a "framework")
-2. that allows you to create UI Components
-3. in a declarative syntax 
+1. Library (not a "framework")
+2. Declarative
+3. Component based 
 4. ??
 5. Profit 💰🤑💰🤑💰🤑!
 
@@ -25,7 +25,10 @@
 Yep, back in about 2014, he did, and turned out he was right!
 
 ---
-## React, what is it?
+## <Hello subtext="World">
+
+
+
 
 ---
 # Why you should not use React
