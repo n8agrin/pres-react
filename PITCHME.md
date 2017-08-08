@@ -1,17 +1,17 @@
 # Let's talk about React!
 
 ---
-# Oh no, not another frontend thing!
+## Oh no, not another frontend thing!
 
 ![angst](/img/frontend-angst.jpg)
 
 ---
-# React is different, it's gonna be great!*
+## React is different, it's gonna be great!*
 
-    * MIT Licensed - this comes with no warranty or guarantee of fitness!
+*MIT Licensed - this statement comes with no warranty or guarantee of fitness!
 
 ---
-# Did Steve Tell You That?!
+## Did Steve Tell You That?!
 
 ![krouse](/img/krouse.jpg)
 
