@@ -6,6 +6,14 @@
 ![angst](/img/frontend-angst.jpg)
 
 ---
+# React is different, it's gonna be great!
+
+---
+# Steve!
+
+![krouse](/img/krouse.jpg)
+
+---
 # Why you should not use React
 
 ✨ It's New! ✨
