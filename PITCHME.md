@@ -54,6 +54,16 @@ const AppComponent = (props) => {
 }
 ```
 
+```
+const Wrapper = (props) => <ul>{props.children}</ul>
+
+<Wrapper>
+  <li>Apple</li>
+  <li>Pear</li>
+</Wrapper>
+
+```
+
 ---
 ## Don't call it HTML!
 
@@ -116,7 +126,26 @@ Mounting > Updating > Unmounting
 ![debugging](/img/debugging.png)
 
 ---
-## But does it work with Typescript?
+## But does it (JSX) work with Typescript?
+
+# YES
+
+```
+declare namespace JSX {
+  interface IntrinsicElements {
+    foo: { requiredProp: string; optionalProp?: number }
+  }
+}
+
+<foo requiredProp="bar" />; // ok
+<foo />; // error, requiredProp is missing
+```
+
+---
+## Let's talk about Angular!
+
+![wat](https://media.giphy.com/media/Eq3pvFO7d2mIw/giphy.gif)
+(wat)
 
 ---
 ## React Component Vs Angular Component
@@ -147,13 +176,12 @@ angular.component('HelloWorld', {
 ---
 ## How Might a Transition Work?
 
-1. Remember, my Module talk and my Component doc?
+1. Compatible with our Flux implementation
+1. Module talk and my Component doc should help
 1. Imagine the UI is a tree of nodes, where each node is a Component
 1. Start out at the leaf nodes of the application
 1. Replace Angular Components with React Components defined in JS Modules!
 1. Work your way up
-
-(See what I did there?)
 
 ---
 ## Angular + React??
@@ -172,18 +200,24 @@ angular
 ```
 
 ---
-## Some Projects Already Use React!
+## Some Projects at Looker Already Use React!
 
-Workbooks
-Adam's Mobile apps (yep, React Native give yous mobile support)
+* Workbooks
+* Adam's Mobile apps via React Native
 
 ---
 ## Advanced Land
 
-* High order functions to replace Transclusion
+* High order functions
 * Good tooling support
-* Testing is good
-* Backend rendering
+* Testing is great
+
+---
+## One Last Thing!
+
+#### Java > Nashorn > React
+
+The (🦃(🦆)) turducken of backend rendering!
 
 ---
 ## Why you should not use React
@@ -193,13 +227,28 @@ Adam's Mobile apps (yep, React Native give yous mobile support)
 ---
 ## Why you should use React
 
-* Well supported
+* Well supported by tools and community
 * Simple API
 * Does one thing well
 * Makes it easy to reason about your UI
 
 ---
+## Should we use React?
+
+* Angular 1.x is a dead end
+* React is a simple, lightweight Component library
+* Works with our other technologies
+* So, yes! (IMHO!)
+
+(Really we should lean on folks like Will Scullin and get everyone on board before making a final final decision.)
+
+---
+##
+
+---
 ## Applause
+
+![clap](https://media.giphy.com/media/a0Lgc1JvbfS4o/giphy.gif)
 
 ---
 ## Reference
@@ -207,6 +256,7 @@ Adam's Mobile apps (yep, React Native give yous mobile support)
 * [Lifecycle Methods](https://facebook.github.io/react/docs/react-component.html)
 
 ---
+## Notes
 - Not really: https://github.com/facebook/react/releases/tag/v0.3.0 -
 - Projects that already used react
 - Simple API
