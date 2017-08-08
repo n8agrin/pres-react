@@ -13,7 +13,7 @@
 ---
 ## Did Steve Tell You That?!
 
-![krouse](/img/krouse.jpg)
+![krouse](/img/krouse.jpg=200x)
 
 Yep, back in about 2014, he did, and he was right!
 
