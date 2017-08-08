@@ -79,15 +79,27 @@ JSX is a simple way to express UI. It is an expression, which allows a programme
 ---
 ## React Lifecycle
 
-List the methods here
+Mounting > Updating > Unmounting
+
+* componentWillMount
+* render
+* componentDidMount
+* componentWillReceiveProps
+* shouldComponentUpdate
+* componentWillUpdate
+* componentDidUpdate
+* componentWillUnmount
 
 ---
 ## Components can have State
 
-
+* setState
+* forceUpdate
 
 ---
 ## Developer Experience
+
+
 
 ---
 ## Tooling Support
@@ -100,6 +112,18 @@ List the methods here
 
 ---
 ## As compared to Angular
+
+```
+const Hello = (props) => <h1>Hello, {props.name}</h1>
+```
+
+```
+angular.component('HelloWorld', {
+  bindings: {
+    name: '='
+  }
+})
+```
 
 ---
 ## Component vs Component
@@ -138,6 +162,11 @@ High order functions to replace Transclusion
 
 ---
 ## Applause
+
+---
+## Reference
+
+* [Lifecycle Methods](https://facebook.github.io/react/docs/react-component.html)
 
 ---
 - Not really: https://github.com/facebook/react/releases/tag/v0.3.0 -
