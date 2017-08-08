@@ -10,10 +10,8 @@
 
 *MIT Licensed - this statement comes with no warranty or guarantee of fitness!
 
----
+---?image=/img/krouse.jpg&size=cover
 ## Did Steve Tell You That?!
-
-![krouse](/img/krouse.jpg)
 
 Yep, back in about 2014, he did, and he was right!
 
