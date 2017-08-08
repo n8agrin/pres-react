@@ -99,42 +99,77 @@ Mounting > Updating > Unmounting
 ---
 ## Developer Experience
 
+```
+  render () {
+    let charts = this.charts.map((chart, idx) =>
+      <Chart
+        //key={idx}
+        type={chart.type}
+        ...
+      />
+    )
 
+    return <div className="charts">{charts}</div>
+  }
+```
 
----
-## Tooling Support
-
----
-## Testing
+![debugging](/img/debugging.png)
 
 ---
 ## But does it work with Typescript?
 
 ---
-## As compared to Angular
+## React Component Vs Angular Component
 
 ```
 const Hello = (props) => <h1>Hello, {props.name}</h1>
 ```
 
 ```
+let helloWorldTemplate = '<h1>Hello, {$ctrl.name}</h1>'
+
 angular.component('HelloWorld', {
   bindings: {
-    name: '='
-  }
+    name: '='    
+  },
+  templateUrl: helloWorldTemplate,
 })
 ```
 
 ---
-## Component vs Component
+## Salient Differences
+
+1. React does not use templates
+2. React does not use watchers or two way binding
+3. React's lifecycle is explicitly defined
+4. React is WYSIWYG
 
 ---
 ## How Might a Transition Work?
 
----
-## Modules!
+1. Remember, my Module talk and my Component doc?
+1. Imagine the UI is a tree of nodes, where each node is a Component
+1. Start out at the leaf nodes of the application
+1. Replace Angular Components with React Components defined in JS Modules!
+1. Work your way up
 
-Mention angular wrapper here
+(See what I did there?)
+
+---
+## Angular + React??
+
+Lots of these wrappers exist:
+
+```
+// Our React component
+import { HelloWorld } from './hello'
+// Our Angular << React wrapper
+import { react2angular } from 'react2angular'
+
+angular
+  .module('looker.silly.components', [])
+  .component('HelloWorld', react2angular(HelloWorld, []))
+```
 
 ---
 ## Some Projects Already Use React!
@@ -145,7 +180,10 @@ Adam's Mobile apps (yep, React Native give yous mobile support)
 ---
 ## Advanced Land
 
-High order functions to replace Transclusion
+* High order functions to replace Transclusion
+* Good tooling support
+* Testing is good
+* Backend rendering
 
 ---
 ## Why you should not use React
