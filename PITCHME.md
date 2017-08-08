@@ -202,8 +202,11 @@ angular
 ---
 ## Some Projects at Looker Already Use React!
 
-* Workbooks
-* Adam's Mobile apps via React Native
+##### Workbooks
+
+![workbook](/img/workbook.png)
+
+##### Adam's Mobile Hackday Popular Content App That Let's Click on Popular Dashboards and View them on your Mobile Device 
 
 ---
 ## Advanced Land
@@ -240,10 +243,7 @@ The (🦃(🦆)) turducken of backend rendering!
 * Works with our other technologies
 * So, yes! (IMHO!)
 
-(Really we should lean on folks like Will Scullin and get everyone on board before making a final final decision.)
-
----
-##
+(Really we should lean on folks like Will Scullin who has React experience, and get everyone on board before making a final final decision.)
 
 ---
 ## Applause
@@ -253,6 +253,7 @@ The (🦃(🦆)) turducken of backend rendering!
 ---
 ## Reference
 
+* [React](https://facebook.github.io/react/)
 * [Lifecycle Methods](https://facebook.github.io/react/docs/react-component.html)
 
 ---
