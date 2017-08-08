@@ -25,10 +25,54 @@
 Yep, back in about 2014, he did, and turned out he was right!
 
 ---
-## <Hello subtext="World">
+## &lt;Hello name="World">
 
+```
+const Hello = (props) => <h1>Hello, {props.name}</h1>
+```
 
+```
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
 
+At its purest, React Components are simple transformation functions which take input and spit out HTML.
+
+---
+## Composition!
+
+```
+const App = (props) => {
+  return <div>
+    <Hello name={props.names[0]}/>
+    <Hello name="Hal"/>
+    <Hello name="Dave"/>
+  </div>
+}
+```
+
+---
+## Don't call it HTML!
+
+#### Please, it's JSX
+
+```
+const Hello = (props) => <h1>Hello, {props.name}</h1>
+```
+
+```
+var Hello = function Hello(props) {
+  return React.createElement(
+    "h1",
+    null,
+    "Hello ",
+    props.name
+  );
+};
+```
 
 ---
 # Why you should not use React
