@@ -204,7 +204,7 @@ angular
 
 ##### Workbooks
 
-![workbook](/img/workbook.png)
+![workbook](/img/workbook.jpg)
 
 ##### Adam's Mobile Hackday Popular Content App That Let's Click on Popular Dashboards and View them on your Mobile Device 
 
