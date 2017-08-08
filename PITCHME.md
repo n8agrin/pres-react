@@ -6,7 +6,7 @@
 1. Library (not a "framework")
 2. Declarative
 3. Component based 
-4. ??
+4. Technology agnostic
 5. Profit 💰🤑💰🤑💰🤑!
 
 ---
@@ -74,7 +74,7 @@ var Hello = function Hello(props) {
 };
 ```
 
-JSX is a simple way to express what a UI should look like. It is an expression, because it is converted to Javascript, which allows the programmer to do interesting things. It is not a template, and thus does not belong in its own file.
+JSX is a simple way to express UI. It is an expression, which allows a programmer to do interesting things. It is not a template, and is not defined in its own file.
 
 ---
 ## React Lifecycle
