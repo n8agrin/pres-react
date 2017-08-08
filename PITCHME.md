@@ -202,12 +202,12 @@ angular
 ---
 ## Hackday React!
 
-##### Workbooks! Me & Steven
+> Workbooks! Me & Steven
 
-##### Adam's Mobile Hackday Popular Content App That Let's Click on Popular Dashboards and View them on your Mobile Device 
+> Adam's Mobile Hackday Popular Content App That Let's You Click on Popular Dashboards and View them on your Mobile Device 
 
 ---
-## Advanced Land
+## What Else?
 
 * High order functions
 * Good tooling support
