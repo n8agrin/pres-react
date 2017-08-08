@@ -39,13 +39,13 @@ class Hello extends React.Component {
 }
 ```
 
-At its purest, React Components are simple transformation functions which take input and spit out HTML.
+At its purest, React Components are simple transformation functions which take input and return HTML.
 
 ---
 ## Composition!
 
 ```
-const App = (props) => {
+const AppComponent = (props) => {
   return <div>
     <Hello name={props.names[0]}/>
     <Hello name="Hal"/>
@@ -74,16 +74,73 @@ var Hello = function Hello(props) {
 };
 ```
 
+JSX is a simple way to express what a UI should look like. It is an expression, because it is converted to Javascript, which allows the programmer to do interesting things. It is not a template, and thus does not belong in its own file.
+
 ---
-# Why you should not use React
+## React Lifecycle
 
-✨ It's New! ✨
+List the methods here
 
+---
+## Components can have State
+
+
+
+---
+## Developer Experience
+
+---
+## Tooling Support
+
+---
+## Testing
+
+---
+## But does it work with Typescript?
+
+---
+## As compared to Angular
+
+---
+## Component vs Component
+
+---
+## How Might a Transition Work?
+
+---
+## Modules!
+
+Mention angular wrapper here
+
+---
+## Some Projects Already Use React!
+
+Workbooks
+Adam's Mobile apps (yep, React Native give yous mobile support)
+
+---
+## Advanced Land
+
+High order functions to replace Transclusion
+
+---
+## Why you should not use React
+
+![pop](/img/popularity.png)
+
+---
+## Why you should use React
+
+* Well supported
+* Simple API
+* Does one thing well
+* Makes it easy to reason about your UI
+
+---
+## Applause
+
+---
 - Not really: https://github.com/facebook/react/releases/tag/v0.3.0 -
-
-
-
-
 - Projects that already used react
 - Simple API
 - Simple Representation of a UI Component
@@ -91,7 +148,6 @@ var Hello = function Hello(props) {
 - Working with Typescript
 - Working with Angular
 - Within Modules
-
 - Everything is a function
 - Bye transclusion (remember everything is a function)
 
