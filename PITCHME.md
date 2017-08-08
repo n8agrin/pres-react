@@ -4,9 +4,10 @@
 ## What is React?
 
 1. It's a library (not a "framework")
-2. Declarative 
-3. Component based
-4. Profit 💰🤑💰🤑💰🤑
+2. that allows you to create UI Components
+3. in a declarative syntax 
+4. ??
+5. Profit 💰🤑💰🤑💰🤑!
 
 ---
 ## Oh no, not another frontend thing!
