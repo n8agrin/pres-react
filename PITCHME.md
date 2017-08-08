@@ -1,17 +1,24 @@
 # Let's talk about React!
 
 ---
-## Oh no, not another frontend thing!
+# Oh no, not another frontend thing!
 
 ![angst](/img/frontend-angst.jpg)
 
 ---
-# React is different, it's gonna be great!
+# React is different, it's gonna be great!*
+
+    * MIT Licensed - this comes with no warranty or guarantee of fitness!
 
 ---
-# Steve!
+# Did Steve Tell You That?!
 
 ![krouse](/img/krouse.jpg)
+
+Yep, back in about 2014, he did, and he was right!
+
+---
+# WAT MAN
 
 ---
 # Why you should not use React
