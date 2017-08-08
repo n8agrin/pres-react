@@ -1,17 +1,6 @@
 # Let's talk about React!
 
-[]
-
-
-
-
-
-
-
-
-
-
-
+---
 # Why you should not use React
 
 ✨ It's New! ✨
